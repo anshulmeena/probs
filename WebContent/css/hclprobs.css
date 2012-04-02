@@ -1,0 +1,156 @@
+@CHARSET "UTF-8";
+body {
+	color: #333;
+	padding: 0px;
+	margin: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 100%;
+	width: 1070px;
+}
+fielset{
+
+}
+.subheading{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 115%;
+	font-weight: bold;
+}
+#login_div{
+	width: 400px;
+	height: 200px;
+}
+.greenfieldset{
+	border:2px solid green;
+}
+#login_div fieldset legend {
+  border:2px solid green;
+  color:green;
+  font-size:13pt;
+  text-align:left;
+}
+.header_div fieldset{
+	height: 40px;
+}
+.header_div {
+	margin-top:5px;
+	margin-bottom: 5px;
+}
+.footer_menu_div{
+	margin-top: 5px;
+}
+.content{
+}
+.dexagogoinput{
+	border: 1px solid #00A8E6;
+	width: 280px;
+}
+.dexagogoinputextra{
+	border: 1px solid #00A8E6;
+	width: 607px;
+}
+/************************Dexagogo Form Validation************************/
+.required_field{
+	color: #FF0000;
+	font-weight:bold;;
+	vertical-align: top;
+	text-align: left;
+}
+input.disabled {
+	border: 1px solid #F2F2F2;
+	background-color: #F2F2F2;
+}
+
+input.required, textarea.required {
+	border: 1px solid #00A8E6;
+	width: 280px;
+}
+input.validation-failed, textarea.validation-failed {
+	border: 1px solid #FF3300;
+	color : #FF3300;
+}
+input.validation-passed, textarea.validation-passed {
+	border: 1px solid #00CC00;
+	color : #000;
+}
+
+.validation-advice {
+	margin: 5px 0;
+	padding: 5px;
+	background-color: #FF3300;
+	color : #FFF;
+	font-weight: bold;
+}
+
+.custom-advice {
+	margin: 5px 0;
+	padding: 5px;
+	background-color: #C8AA00;
+	color : #FFF;
+	font-weight: bold;
+}
+
+.form-row {
+	clear: both;
+	padding: 0.5em;
+}
+/************************END Dexagogo Form Validation************************/
+
+/************************Scriptaculous Autocomplete************************/
+
+/**
+* Div for autocomplete dropdown 
+* Attention for the CSS property at the Element level and Page level
+*/
+div.autocomplete {
+	position:relative;
+	overflow: auto;
+	margin-top:3px;
+
+	max-height: 420px;
+	min-height: 0px;
+	background-color:white;
+	border:1px solid #888;
+}
+div.autocomplete ul {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+div.autocomplete ul li.selected { 
+	background-color: #CCFF99;
+}
+div.autocomplete ul li {
+  list-style-type:none;
+  display:block;
+  margin:0;
+  padding:2px;
+  height:22px;
+  cursor:pointer;
+}
+/************************END Scriptaculous Autocomplete************************/
+.dataTable{
+	margin-top:13px;
+	background-color: white;
+}
+.dataTable table{
+	border: 1px solid black;
+	border-spacing: 0px;
+}
+div.dataTable table th{
+	background-color: #A0A0A0;
+	font: bold;
+	margin-right: 2px;
+	margin-left: 1px;
+}
+div.dataTable table tr:HOVER{
+	background-color: #99CCFF;
+	font: bold;
+}
+..dataTable td{
+	margin-right: 4px;
+	margin-left: 1px;
+}
+
+.clear{
+	clear: both;
+}
